@@ -1,0 +1,80 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px; /* inside spacing */
+    text-align: center;
+    border-bottom: 3px solid #388E3C; /* Box model border */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Styling */
+section {
+    margin: 20px; /* outside spacing */
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border: 2px solid #00acc1;
+    width: 200px;
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #4CAF50;
+    background-color: #81C784;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-top: 3px solid #388E3C;
+}
